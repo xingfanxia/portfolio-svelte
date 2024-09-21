@@ -21,7 +21,7 @@ class={`group relative flex w-fit items-center jusitfy-center overflow-hidden ro
     <span class="relative flex items-center justify-center gap-2">
       {label}
       {#if showIcon}
-        <Icon />
+        <svelte:component this={Icon}/>
       {/if}
     </span>
 </PrismicLink>

@@ -4,12 +4,12 @@
   import IconGithub from '~icons/fa6-brands/github';
   import IconX from '~icons/fa6-brands/x-twitter';
   import IconLinkedinIn from '~icons/fa6-brands/linkedin-in';
-
+  import Bounded from './Bounded.svelte';
 
   export let settings: Content.SettingsDocument;
 </script>
 
-<footer class="text-slate 600">
+<Bounded as="footer" class="text-slate 600">
   <div class="container mx-auto flex mt-20 flex-col items-center justify-between gap-6 py-8 sm:flex-row">
     <div class="name flex flex-col items-center justify-center gap-x-4 gap-y-2 sm:flex-row sm:justify-self-start">
       <a href="/" 
@@ -63,4 +63,4 @@
       {/if}
     </div>
   </div>
-</footer>
+</Bounded>

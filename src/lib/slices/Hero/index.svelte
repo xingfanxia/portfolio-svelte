@@ -3,6 +3,7 @@
   import type { Content } from '@prismicio/client';
   import Scene from './Scene.svelte'
   import gsap from 'gsap'
+  import Bounded from '../../components/Bounded.svelte';
 
   export let slice: Content.HeroSlice;
 
