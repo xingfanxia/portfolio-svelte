@@ -23,7 +23,7 @@
     </p>
     </div>
 
-    <nav class="footer-nav" aria-label="Footer Navigation">
+    <nav class="footer-nav flex justify-center" aria-label="Footer Navigation">
       <ul class="flex items-center gap-1">
         {#each settings.data.nav_item as { link, label }, index}
           <li>
